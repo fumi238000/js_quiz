@@ -9,6 +9,10 @@ const ansers = [
 
 const correct = 'スイッチ';
 
-console.log();
 
 document.getElementById('question').textContent = question;
+
+document.getElementsByTagName('button')[0].textContent = ansers[0];
+document.getElementsByTagName('button')[1].textContent = ansers[1];
+document.getElementsByTagName('button')[2].textContent = ansers[2];
+document.getElementsByTagName('button')[3].textContent = ansers[3];
