@@ -8,3 +8,7 @@ const ansers = [
   ];
 
 const correct = 'スイッチ';
+
+console.log();
+
+document.getElementById('question').textContent = question;
